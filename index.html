@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Mootools Loader</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/mootools.js"></script>
+	<script type="text/javascript" src="js/mootoolsMore.js"></script> 
+	<script type="text/javascript" src="js/loader.js"></script>
+</head>
+<body>
+	<div id="example_1">
+		Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+		 lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+		  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum<br/><br/>
+		   lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+		    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
+	</div>
+	<table id="example_2">
+		<tr>
+			<th>Col 1</th>
+			<th>Col 2</th>
+			<th>Col 3</th>
+			<th>Col 4</th>
+		</tr>
+		<tr>
+			<td>Lorem ipsum</td>
+			<td>Lorem ipsum</td>
+			<td>Lorem ipsum</td>
+			<td>Lorem ipsum</td>
+		</tr>
+		<tr>
+			<td>Lorem ipsum</td>
+			<td>Lorem ipsum</td>
+			<td>Lorem ipsum</td>
+			<td>Lorem ipsum</td>
+		</tr>
+		<tr>
+			<td>Lorem ipsum</td>
+			<td>Lorem ipsum</td>
+			<td>Lorem ipsum</td>
+			<td>Lorem ipsum</td>
+		</tr>
+	</table>
+	
+	<div id="something">Lorem ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum
+	 ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum</div>
+	<div id="example_3">
+		 ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum ipsum
+	</div>
+</body>
+<script type="text/javascript">
+	
+	(function() {
+		var example_1 = $('example_1');
+		example_1.loader({});
+		example_1.loader().show();
+		
+		var example_2 = $('example_2');
+		example_2.loader({});
+		example_2.loader().show();
+		
+		var example_3 = $('example_3');
+		example_3.loader({});
+		example_3.loader().show();
+	})();
+
+</script>
+</html>

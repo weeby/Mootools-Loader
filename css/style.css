@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+#example_1 {
+	width: 300px;
+	height: 300px;
+	margin-left: 200px;
+	margin-top: 50px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+#example_2 {
+	border: 3px solid #ccc;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+#example_2 td {
+	border: 1px solid #ccc;
+	padding: 10px;	
+}
+#something {
+	float: left;
+	width: 100px;
+	height: 300px;
+	margin-left: 10px;
+}
+#example_3 {
+	width: 300px;
+	float: left;
+	height: 500px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.cleaner {
+	clear: both;
+}
+.loader {
+	position: absolute;
+	background-image: url(../img/loader.gif);
+	background-repeat: no-repeat;
+	width: 66px;
+	height: 66px;
+	z-index: 2;
+}
+.loader_overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.loader_wrapper {
+	position: relative;
+}
